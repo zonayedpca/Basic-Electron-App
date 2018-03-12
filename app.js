@@ -1,12 +1,12 @@
-const {app} = require('electron'),
-      {BrowserWindow} = require('electron');
+var app = require('electron').app,
+      BrowserWindow = require('electron').BrowserWindow;
 
-app.on('ready', () => {
+app.on('ready', function() {
   //Your main code will be here
-  const mainWindow = new BrowserWindow({
+  var mainWindow = new BrowserWindow({
     width: 800,
     height: 600
   });
   //Load the content
-  mainWindow.loadURL(`file://${__dirname}/public/index.html`);
+  mainWindow.loadURL('file://' + __dirname + '/public/index.html');
 });
