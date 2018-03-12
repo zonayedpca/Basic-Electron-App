@@ -16,6 +16,10 @@ npm install
 git clone https://github.com/zonayedpca/Basic-Electron-App.git
 ```
 
+## Start
+```
+npm start
+```
 ## Build
 ```
 electron-packager .
