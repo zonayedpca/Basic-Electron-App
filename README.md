@@ -1,5 +1,10 @@
 # Basic-Electron-App
-Main Blog Link: https://goo.gl/EDWqDc
+![Cover Photo](https://cdn-images-1.medium.com/max/800/1*gOBvRumpgbXNEj9VoAK7yA.jpeg)
+
+## Main Blog Link: 
+```
+https://goo.gl/EDWqDc
+```
 
 ## Required
 - Node JS
