@@ -18,5 +18,5 @@ git clone https://github.com/zonayedpca/Basic-Electron-App.git
 
 ## Build
 ```
-electron-package .
+electron-packager .
 ```
