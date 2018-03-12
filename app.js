@@ -7,5 +7,6 @@ app.on('ready', () => {
     width: 800,
     height: 600
   });
+  //Load the content
   mainWindow.loadURL(`file://${__dirname}/public/index.html`);
 });
